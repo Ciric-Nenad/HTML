@@ -18,7 +18,7 @@
         </div>
         <div>
             <label for="UserMail">Email:</label>
-            <input type="email" name="UserMail" id="UserMail" placeholder="****@email.com" required>
+            <input type="email" name="UserMail" id="UserMail" value="XXX@email.com" required>
         </div>
         <div>
             <label for="UserCity">Mesto:</label>
@@ -30,13 +30,29 @@
         </div>
         <div>
             <label for="UserSkills">Vestine:</label>
-            <select name="UserSkills" id="UserSkills" multiple>
+            <select name="UserSkills" id="UserSkills" multiple size="5">
                 <option value="1">Dizajn</option>
                 <option value="2">HTML</option>
                 <option value="3">CSS</option>
                 <option value="4">JavaScript</option>
                 <option value="5">PHP</option>
             </select>
+        </div>
+        <div>
+            <p>Da li ste zaposleni</p>
+            <input type="radio" name="WorkStatus" id="WorkStatus1">
+            <label for="WorkStatus1">Da</label>
+            <input type="radio" name="WorkStatus" id="WorkStatus2">
+            <label for="WorkStatus2">Ne</label>        
+        </div>
+        <div>
+            <label for="UserBio">Biografija</label>
+            <textarea name="UserBio" id="UserBio" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="Terms" id="Terms">
+            <label for="Terms">Prihvatam uslove koriscenja.</label>
+
         </div>
         <input type="submit" value="Posalji">
     </form>
